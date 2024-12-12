@@ -1,0 +1,35 @@
+2024-12-12T18:09:51.455+05:45  INFO 69529 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 69529 (/home/abi-mahato/Desktop/spring/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/springrest)
+2024-12-12T18:09:51.461+05:45  INFO 69529 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-12T18:09:52.449+05:45  INFO 69529 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-12T18:09:52.518+05:45  INFO 69529 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-12-12T18:09:53.082+05:45  INFO 69529 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-12T18:09:53.097+05:45  INFO 69529 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-12T18:09:53.097+05:45  INFO 69529 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12T18:09:53.158+05:45  INFO 69529 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-12T18:09:53.159+05:45  INFO 69529 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1622 ms
+2024-12-12T18:09:53.375+05:45  INFO 69529 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-12T18:09:53.447+05:45  INFO 69529 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-12T18:09:53.483+05:45  INFO 69529 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-12T18:09:53.804+05:45  INFO 69529 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-12T18:09:53.861+05:45  INFO 69529 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-12T18:09:54.344+05:45  INFO 69529 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58f7215c
+2024-12-12T18:09:54.347+05:45  INFO 69529 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-12T18:09:54.456+05:45  WARN 69529 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-12T18:09:54.489+05:45  INFO 69529 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-12T18:09:55.535+05:45  INFO 69529 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-12T18:09:55.662+05:45  INFO 69529 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-12T18:09:55.990+05:45  WARN 69529 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-12T18:09:56.523+05:45  INFO 69529 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-12T18:09:56.538+05:45  INFO 69529 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 5.818 seconds (process running for 6.815)
+2024-12-12T18:10:14.927+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-12T18:10:14.928+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-12T18:10:14.932+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-12-12T18:10:15.018+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-2] c.s.springrest.controller.MyController   : getStudents called
+2024-12-12T18:10:39.289+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-3] c.s.springrest.controller.MyController   : getStudent called
