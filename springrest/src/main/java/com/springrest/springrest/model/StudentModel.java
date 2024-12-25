@@ -2,12 +2,10 @@ package com.springrest.springrest.model;
 
 import jakarta.persistence.*;
 
-import lombok.Data;
-
 //@Data
 @Entity
 @Table(name="students")
-public class ExampleModel {
+public class StudentModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -17,13 +15,13 @@ public class ExampleModel {
 
 
 
-    public ExampleModel(int id, String name, String roll, String course) {
+    public StudentModel(int id, String name, String roll, String course) {
         this.id = id;
         this.name = name;
         this.roll = roll;
         this.course = course;
     }
-    public ExampleModel() {}
+    public StudentModel() {}
 
     public int getId() {
         return id;
@@ -55,5 +53,15 @@ public class ExampleModel {
 
     public void setCourse(String course) {
         this.course = course;
+    }
+
+    @Override
+    public String toString() {
+        return "ExampleModel{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", roll='" + roll + '\'' +
+                ", course='" + course + '\'' +
+                '}';
     }
 }

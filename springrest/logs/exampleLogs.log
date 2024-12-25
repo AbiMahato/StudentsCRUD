@@ -1,21 +1,26 @@
-2024-12-12T18:09:51.455+05:45  INFO 69529 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 69529 (/home/abi-mahato/Desktop/spring/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/springrest)
-2024-12-12T18:09:51.461+05:45  INFO 69529 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
-2024-12-12T18:09:52.449+05:45  INFO 69529 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-12T18:09:52.518+05:45  INFO 69529 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
-2024-12-12T18:09:53.082+05:45  INFO 69529 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-12T18:09:53.097+05:45  INFO 69529 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-12T18:09:53.097+05:45  INFO 69529 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-12T18:09:53.158+05:45  INFO 69529 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-12T18:09:53.159+05:45  INFO 69529 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1622 ms
-2024-12-12T18:09:53.375+05:45  INFO 69529 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-12T18:09:53.447+05:45  INFO 69529 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-12T18:09:53.483+05:45  INFO 69529 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-12T18:09:53.804+05:45  INFO 69529 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-12T18:09:53.861+05:45  INFO 69529 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-12T18:09:54.344+05:45  INFO 69529 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58f7215c
-2024-12-12T18:09:54.347+05:45  INFO 69529 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-12T18:09:54.456+05:45  WARN 69529 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2024-12-12T18:09:54.489+05:45  INFO 69529 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-23T13:23:23.632+05:45  INFO 130276 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T13:23:23.646+05:45  INFO 130276 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T13:23:23.661+05:45  INFO 130276 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T13:23:23.669+05:45  INFO 130276 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T13:23:23.693+05:45  INFO 130276 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T13:47:24.272+05:45  INFO 5520 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 5520 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T13:47:24.275+05:45  INFO 5520 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T13:47:25.086+05:45  INFO 5520 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T13:47:25.163+05:45  INFO 5520 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-12-23T13:47:25.747+05:45  INFO 5520 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T13:47:25.762+05:45  INFO 5520 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T13:47:25.763+05:45  INFO 5520 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T13:47:25.812+05:45  INFO 5520 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T13:47:25.813+05:45  INFO 5520 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1484 ms
+2024-12-23T13:47:25.954+05:45  INFO 5520 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T13:47:26.019+05:45  INFO 5520 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T13:47:26.060+05:45  INFO 5520 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T13:47:26.280+05:45  INFO 5520 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T13:47:26.303+05:45  INFO 5520 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T13:47:26.605+05:45  INFO 5520 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6996bbc4
+2024-12-23T13:47:26.606+05:45  INFO 5520 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T13:47:26.673+05:45  WARN 5520 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T13:47:26.689+05:45  INFO 5520 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.40
@@ -23,13 +28,552 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-12T18:09:55.535+05:45  INFO 69529 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-12T18:09:55.662+05:45  INFO 69529 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-12T18:09:55.990+05:45  WARN 69529 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-12T18:09:56.523+05:45  INFO 69529 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-12T18:09:56.538+05:45  INFO 69529 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 5.818 seconds (process running for 6.815)
-2024-12-12T18:10:14.927+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-12-12T18:10:14.928+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-12-12T18:10:14.932+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2024-12-12T18:10:15.018+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-2] c.s.springrest.controller.MyController   : getStudents called
-2024-12-12T18:10:39.289+05:45  INFO 69529 --- [springrest] [http-nio-8080-exec-3] c.s.springrest.controller.MyController   : getStudent called
+2024-12-23T13:47:27.412+05:45  INFO 5520 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T13:47:27.464+05:45  INFO 5520 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T13:47:27.776+05:45  INFO 5520 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T13:47:28.132+05:45  WARN 5520 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T13:47:28.485+05:45  INFO 5520 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T13:47:28.494+05:45  INFO 5520 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 4.942 seconds (process running for 5.674)
+2024-12-23T13:48:49.753+05:45  INFO 5520 --- [springrest] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T13:48:49.753+05:45  INFO 5520 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T13:48:49.755+05:45  INFO 5520 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T13:54:32.261+05:45  INFO 5520 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T13:54:32.265+05:45  INFO 5520 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T13:54:32.270+05:45  INFO 5520 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T13:54:32.274+05:45  INFO 5520 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T13:54:32.284+05:45  INFO 5520 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T13:55:00.684+05:45  INFO 6066 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 6066 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T13:55:00.686+05:45  INFO 6066 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T13:55:01.410+05:45  INFO 6066 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T13:55:01.455+05:45  INFO 6066 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-12-23T13:55:01.853+05:45  INFO 6066 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T13:55:01.862+05:45  INFO 6066 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T13:55:01.863+05:45  INFO 6066 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T13:55:01.896+05:45  INFO 6066 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T13:55:01.897+05:45  INFO 6066 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1169 ms
+2024-12-23T13:55:02.019+05:45  INFO 6066 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T13:55:02.055+05:45  INFO 6066 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T13:55:02.084+05:45  INFO 6066 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T13:55:02.265+05:45  INFO 6066 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T13:55:02.286+05:45  INFO 6066 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T13:55:02.508+05:45  INFO 6066 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71468613
+2024-12-23T13:55:02.509+05:45  INFO 6066 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T13:55:02.553+05:45  WARN 6066 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T13:55:02.568+05:45  INFO 6066 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T13:55:03.233+05:45  INFO 6066 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T13:55:03.280+05:45  INFO 6066 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T13:55:03.521+05:45  INFO 6066 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T13:55:03.913+05:45  WARN 6066 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T13:55:04.338+05:45  INFO 6066 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T13:55:04.348+05:45  INFO 6066 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 4.139 seconds (process running for 4.943)
+2024-12-23T13:55:11.508+05:45  INFO 6066 --- [springrest] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T13:55:11.508+05:45  INFO 6066 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T13:55:11.509+05:45  INFO 6066 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T13:55:12.046+05:45  INFO 6066 --- [springrest] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 202 ms
+2024-12-23T14:53:50.909+05:45  INFO 6066 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T14:53:50.921+05:45  INFO 6066 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T14:53:50.939+05:45  INFO 6066 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T14:53:50.947+05:45  INFO 6066 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T14:53:50.977+05:45  INFO 6066 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T14:53:59.978+05:45  INFO 7324 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 7324 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T14:53:59.982+05:45  INFO 7324 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T14:54:01.506+05:45  INFO 7324 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T14:54:01.701+05:45  INFO 7324 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+2024-12-23T14:54:02.949+05:45  INFO 7324 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T14:54:03.031+05:45  INFO 7324 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2968 ms
+2024-12-23T14:54:03.255+05:45  INFO 7324 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T14:54:03.357+05:45  INFO 7324 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T14:54:03.409+05:45  INFO 7324 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T14:54:03.794+05:45  INFO 7324 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T14:54:03.843+05:45  INFO 7324 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T14:54:04.417+05:45  INFO 7324 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1b19712f
+2024-12-23T14:54:04.420+05:45  INFO 7324 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T14:54:04.505+05:45  WARN 7324 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T14:54:04.531+05:45  INFO 7324 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T14:54:06.005+05:45  INFO 7324 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T14:54:06.169+05:45  INFO 7324 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T14:54:06.611+05:45  INFO 7324 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T14:54:07.520+05:45  WARN 7324 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T14:54:08.301+05:45  INFO 7324 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T14:54:08.339+05:45  INFO 7324 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 9.635 seconds (process running for 11.353)
+2024-12-23T14:54:08.345+05:45  INFO 7324 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T14:54:08.352+05:45  INFO 7324 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T14:54:08.360+05:45  INFO 7324 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T14:54:08.376+05:45  INFO 7324 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T14:54:08.393+05:45  INFO 7324 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T14:54:13.394+05:45  INFO 7458 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 7458 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T14:54:13.398+05:45  INFO 7458 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T14:54:14.599+05:45  INFO 7458 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T14:54:14.676+05:45  INFO 7458 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interface.
+2024-12-23T14:54:15.321+05:45  INFO 7458 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T14:54:15.338+05:45  INFO 7458 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T14:54:15.341+05:45  INFO 7458 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T14:54:15.405+05:45  INFO 7458 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T14:54:15.406+05:45  INFO 7458 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1943 ms
+2024-12-23T14:54:15.618+05:45  INFO 7458 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T14:54:15.678+05:45  INFO 7458 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T14:54:15.713+05:45  INFO 7458 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T14:54:16.014+05:45  INFO 7458 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T14:54:16.046+05:45  INFO 7458 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T14:54:16.443+05:45  INFO 7458 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d35ff7b
+2024-12-23T14:54:16.446+05:45  INFO 7458 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T14:54:16.518+05:45  WARN 7458 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T14:54:16.548+05:45  INFO 7458 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T14:54:17.559+05:45  INFO 7458 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T14:54:17.626+05:45  INFO 7458 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T14:54:17.985+05:45  INFO 7458 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T14:54:18.626+05:45  WARN 7458 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T14:54:19.278+05:45  INFO 7458 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T14:54:19.293+05:45  INFO 7458 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 6.535 seconds (process running for 7.443)
+2024-12-23T14:58:57.726+05:45  INFO 7458 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T14:58:57.737+05:45  INFO 7458 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T14:58:57.750+05:45  INFO 7458 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T14:58:57.756+05:45  INFO 7458 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T14:58:57.778+05:45  INFO 7458 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T14:59:18.876+05:45  INFO 7707 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 7707 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T14:59:18.880+05:45  INFO 7707 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T14:59:20.048+05:45  INFO 7707 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T14:59:20.119+05:45  INFO 7707 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2024-12-23T14:59:21.045+05:45  INFO 7707 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T14:59:21.062+05:45  INFO 7707 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T14:59:21.063+05:45  INFO 7707 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T14:59:21.134+05:45  INFO 7707 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T14:59:21.134+05:45  INFO 7707 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2179 ms
+2024-12-23T14:59:21.385+05:45  INFO 7707 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T14:59:21.461+05:45  INFO 7707 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T14:59:21.505+05:45  INFO 7707 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T14:59:21.828+05:45  INFO 7707 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T14:59:21.866+05:45  INFO 7707 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T14:59:22.268+05:45  INFO 7707 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d35ff7b
+2024-12-23T14:59:22.271+05:45  INFO 7707 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T14:59:22.339+05:45  WARN 7707 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T14:59:22.362+05:45  INFO 7707 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T14:59:23.381+05:45  INFO 7707 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T14:59:23.446+05:45  INFO 7707 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T14:59:23.813+05:45  INFO 7707 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T14:59:24.495+05:45  WARN 7707 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T14:59:25.260+05:45  INFO 7707 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T14:59:25.280+05:45  INFO 7707 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 7.138 seconds (process running for 8.0)
+2024-12-23T15:02:08.753+05:45  INFO 7707 --- [springrest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T15:02:08.754+05:45  INFO 7707 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T15:02:08.756+05:45  INFO 7707 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-23T15:02:08.802+05:45  INFO 7707 --- [springrest] [http-nio-8080-exec-2] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-2
+2024-12-23T15:02:14.366+05:45  INFO 7707 --- [springrest] [AsyncThread-1] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-1
+2024-12-23T15:02:38.807+05:45  INFO 7707 --- [springrest] [http-nio-8080-exec-2] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-2
+2024-12-23T15:04:48.619+05:45  INFO 7707 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T15:04:48.629+05:45  INFO 7707 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T15:04:48.645+05:45  INFO 7707 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:04:48.658+05:45  INFO 7707 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T15:04:48.695+05:45  INFO 7707 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T15:04:53.246+05:45  INFO 8313 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 8313 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T15:04:53.250+05:45  INFO 8313 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T15:04:54.782+05:45  INFO 8313 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T15:04:54.902+05:45  INFO 8313 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.
+2024-12-23T15:04:55.840+05:45  INFO 8313 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T15:04:55.863+05:45  INFO 8313 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T15:04:55.866+05:45  INFO 8313 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T15:04:55.942+05:45  INFO 8313 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T15:04:55.943+05:45  INFO 8313 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2623 ms
+2024-12-23T15:04:56.190+05:45  INFO 8313 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T15:04:56.258+05:45  INFO 8313 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T15:04:56.300+05:45  INFO 8313 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T15:04:56.651+05:45  INFO 8313 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T15:04:56.689+05:45  INFO 8313 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T15:04:57.210+05:45  INFO 8313 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aedc426
+2024-12-23T15:04:57.214+05:45  INFO 8313 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T15:04:57.287+05:45  WARN 8313 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T15:04:57.316+05:45  INFO 8313 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T15:04:58.665+05:45  INFO 8313 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T15:04:58.733+05:45  INFO 8313 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:04:59.150+05:45  INFO 8313 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T15:04:59.846+05:45  WARN 8313 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T15:05:00.566+05:45  INFO 8313 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T15:05:00.583+05:45  INFO 8313 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 8.139 seconds (process running for 9.056)
+2024-12-23T15:05:08.731+05:45  INFO 8313 --- [springrest] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T15:05:08.733+05:45  INFO 8313 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T15:05:08.742+05:45  INFO 8313 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-12-23T15:05:08.869+05:45  INFO 8313 --- [springrest] [http-nio-8080-exec-1] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-1
+2024-12-23T15:05:14.032+05:45  INFO 8313 --- [springrest] [AsyncThread-1] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-1
+2024-12-23T15:05:14.695+05:45  INFO 8313 --- [springrest] [AsyncThread-2] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-2
+2024-12-23T15:05:38.882+05:45  INFO 8313 --- [springrest] [http-nio-8080-exec-1] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-1
+2024-12-23T15:05:44.753+05:45  INFO 8313 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T15:05:44.763+05:45  INFO 8313 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T15:05:44.776+05:45  INFO 8313 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:05:44.782+05:45  INFO 8313 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T15:05:44.802+05:45  INFO 8313 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T15:18:54.684+05:45  INFO 8928 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 8928 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T15:18:54.688+05:45  INFO 8928 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T15:18:55.751+05:45  INFO 8928 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T15:18:55.825+05:45  INFO 8928 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-12-23T15:18:56.475+05:45  INFO 8928 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T15:18:56.489+05:45  INFO 8928 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T15:18:56.490+05:45  INFO 8928 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T15:18:56.549+05:45  INFO 8928 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T15:18:56.550+05:45  INFO 8928 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1800 ms
+2024-12-23T15:18:56.744+05:45  INFO 8928 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T15:18:56.800+05:45  INFO 8928 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T15:18:56.838+05:45  INFO 8928 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T15:18:57.129+05:45  INFO 8928 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T15:18:57.159+05:45  INFO 8928 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T15:18:57.503+05:45  INFO 8928 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@aedc426
+2024-12-23T15:18:57.513+05:45  INFO 8928 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T15:18:57.587+05:45  WARN 8928 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T15:18:57.610+05:45  INFO 8928 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T15:18:58.667+05:45  INFO 8928 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T15:18:58.726+05:45  INFO 8928 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:18:59.104+05:45  INFO 8928 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T15:18:59.760+05:45  WARN 8928 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T15:19:00.444+05:45  INFO 8928 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T15:19:00.459+05:45  INFO 8928 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 6.483 seconds (process running for 7.301)
+2024-12-23T15:21:49.330+05:45  INFO 8928 --- [springrest] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T15:21:49.331+05:45  INFO 8928 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T15:21:49.334+05:45  INFO 8928 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-12-23T15:21:49.498+05:45  INFO 8928 --- [springrest] [http-nio-8080-exec-1] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-1
+2024-12-23T15:21:49.503+05:45  INFO 8928 --- [springrest] [http-nio-8080-exec-1] c.s.s.controller.EmailSenderController   : Email sent to: abinashmahato796@gmail.com
+2024-12-23T15:21:49.504+05:45  INFO 8928 --- [springrest] [http-nio-8080-exec-1] c.s.s.controller.EmailSenderController   : Email sent to: abinash.201603@ncit.edu.np
+2024-12-23T15:21:54.733+05:45  INFO 8928 --- [springrest] [AsyncThread-2] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-2
+2024-12-23T15:21:55.244+05:45  INFO 8928 --- [springrest] [AsyncThread-1] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-1
+2024-12-23T15:22:19.505+05:45  INFO 8928 --- [springrest] [http-nio-8080-exec-1] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-1
+2024-12-23T15:23:24.676+05:45  INFO 8928 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T15:23:24.684+05:45  INFO 8928 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T15:23:24.697+05:45  INFO 8928 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:23:24.704+05:45  INFO 8928 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T15:23:24.722+05:45  INFO 8928 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T15:51:50.274+05:45  INFO 9767 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 9767 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T15:51:50.279+05:45  INFO 9767 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T15:51:51.399+05:45  INFO 9767 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T15:51:51.473+05:45  INFO 9767 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 1 JPA repository interface.
+2024-12-23T15:51:52.111+05:45  INFO 9767 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T15:51:52.126+05:45  INFO 9767 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T15:51:52.127+05:45  INFO 9767 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T15:51:52.182+05:45  INFO 9767 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T15:51:52.183+05:45  INFO 9767 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1828 ms
+2024-12-23T15:51:52.374+05:45  INFO 9767 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T15:51:52.439+05:45  INFO 9767 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T15:51:52.475+05:45  INFO 9767 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T15:51:52.794+05:45  INFO 9767 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T15:51:52.829+05:45  INFO 9767 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T15:51:53.251+05:45  INFO 9767 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fcc3745
+2024-12-23T15:51:53.254+05:45  INFO 9767 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T15:51:53.335+05:45  WARN 9767 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T15:51:53.359+05:45  INFO 9767 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T15:51:54.386+05:45  INFO 9767 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T15:51:54.449+05:45  INFO 9767 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:51:54.818+05:45  INFO 9767 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T15:51:55.534+05:45  WARN 9767 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T15:51:56.161+05:45  INFO 9767 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T15:51:56.182+05:45  INFO 9767 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 6.599 seconds (process running for 7.534)
+2024-12-23T15:52:04.764+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T15:52:04.765+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T15:52:04.767+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-12-23T15:52:04.927+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-2] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-2
+2024-12-23T15:52:04.994+05:45 ERROR 9767 --- [springrest] [AsyncThread-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.springrest.springrest.service.EmailSenderService.sendEmail(java.lang.String,java.lang.String,java.lang.String)
+
+org.springframework.mail.MailParseException: Could not parse mail
+	at org.springframework.mail.javamail.MimeMailMessage.setTo(MimeMailMessage.java:112) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.SimpleMailMessage.copyTo(SimpleMailMessage.java:204) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:314) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.MailSender.send(MailSender.java:42) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at com.springrest.springrest.service.EmailSenderService.sendEmail(EmailSenderService.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114) ~[spring-aop-6.2.0.jar:6.2.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: jakarta.mail.internet.AddressException: Illegal address
+	at org.springframework.mail.javamail.MimeMessageHelper.parseAddress(MimeMessageHelper.java:738) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.MimeMessageHelper.setTo(MimeMessageHelper.java:622) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.MimeMailMessage.setTo(MimeMailMessage.java:109) ~[spring-context-support-6.2.0.jar:6.2.0]
+	... 16 common frames omitted
+
+2024-12-23T15:52:34.932+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-2] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-2
+2024-12-23T15:53:54.197+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-5] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-5
+2024-12-23T15:53:54.198+05:45 ERROR 9767 --- [springrest] [AsyncThread-2] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.springrest.springrest.service.EmailSenderService.sendEmail(java.lang.String,java.lang.String,java.lang.String)
+
+org.springframework.mail.MailParseException: Could not parse mail
+	at org.springframework.mail.javamail.MimeMailMessage.setTo(MimeMailMessage.java:112) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.SimpleMailMessage.copyTo(SimpleMailMessage.java:204) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:314) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.MailSender.send(MailSender.java:42) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at com.springrest.springrest.service.EmailSenderService.sendEmail(EmailSenderService.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114) ~[spring-aop-6.2.0.jar:6.2.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: jakarta.mail.internet.AddressException: Illegal address
+	at org.springframework.mail.javamail.MimeMessageHelper.parseAddress(MimeMessageHelper.java:738) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.MimeMessageHelper.setTo(MimeMessageHelper.java:622) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.MimeMailMessage.setTo(MimeMailMessage.java:109) ~[spring-context-support-6.2.0.jar:6.2.0]
+	... 16 common frames omitted
+
+2024-12-23T15:54:24.198+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-5] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-5
+2024-12-23T15:56:24.338+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-8] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-8
+2024-12-23T15:56:24.339+05:45 ERROR 9767 --- [springrest] [AsyncThread-3] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.springrest.springrest.service.EmailSenderService.sendEmail(java.lang.String,java.lang.String,java.lang.String)
+
+org.springframework.mail.MailParseException: Could not parse mail
+	at org.springframework.mail.javamail.MimeMailMessage.setTo(MimeMailMessage.java:112) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.SimpleMailMessage.copyTo(SimpleMailMessage.java:204) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:314) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.MailSender.send(MailSender.java:42) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at com.springrest.springrest.service.EmailSenderService.sendEmail(EmailSenderService.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114) ~[spring-aop-6.2.0.jar:6.2.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: jakarta.mail.internet.AddressException: Illegal address
+	at org.springframework.mail.javamail.MimeMessageHelper.parseAddress(MimeMessageHelper.java:738) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.MimeMessageHelper.setTo(MimeMessageHelper.java:622) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.MimeMailMessage.setTo(MimeMailMessage.java:109) ~[spring-context-support-6.2.0.jar:6.2.0]
+	... 16 common frames omitted
+
+2024-12-23T15:56:54.339+05:45  INFO 9767 --- [springrest] [http-nio-8080-exec-8] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-8
+2024-12-23T15:57:04.920+05:45  INFO 9767 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T15:57:04.928+05:45  INFO 9767 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T15:57:04.943+05:45  INFO 9767 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:57:04.949+05:45  INFO 9767 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T15:57:04.972+05:45  INFO 9767 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T15:57:07.848+05:45  INFO 9987 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 9987 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T15:57:07.852+05:45  INFO 9987 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T15:57:08.842+05:45  INFO 9987 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T15:57:08.903+05:45  INFO 9987 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2024-12-23T15:57:09.475+05:45  INFO 9987 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T15:57:09.488+05:45  INFO 9987 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T15:57:09.489+05:45  INFO 9987 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T15:57:09.542+05:45  INFO 9987 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T15:57:09.543+05:45  INFO 9987 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1631 ms
+2024-12-23T15:57:09.736+05:45  INFO 9987 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T15:57:09.787+05:45  INFO 9987 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T15:57:09.818+05:45  INFO 9987 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T15:57:10.111+05:45  INFO 9987 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T15:57:10.143+05:45  INFO 9987 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T15:57:10.494+05:45  INFO 9987 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d35ff7b
+2024-12-23T15:57:10.497+05:45  INFO 9987 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T15:57:10.566+05:45  WARN 9987 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T15:57:10.590+05:45  INFO 9987 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T15:57:11.556+05:45  INFO 9987 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T15:57:11.613+05:45  INFO 9987 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:57:11.980+05:45  INFO 9987 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T15:57:12.588+05:45  WARN 9987 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T15:57:13.204+05:45  INFO 9987 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T15:57:13.220+05:45  INFO 9987 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 6.0 seconds (process running for 6.828)
+2024-12-23T15:57:21.130+05:45  INFO 9987 --- [springrest] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T15:57:21.131+05:45  INFO 9987 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T15:57:21.133+05:45  INFO 9987 --- [springrest] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-23T15:57:21.284+05:45  INFO 9987 --- [springrest] [http-nio-8080-exec-1] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-1
+2024-12-23T15:57:21.338+05:45 ERROR 9987 --- [springrest] [AsyncThread-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void com.springrest.springrest.service.EmailSenderService.sendEmail(java.lang.String,java.lang.String,java.lang.String)
+
+org.springframework.mail.MailParseException: Could not parse mail
+	at org.springframework.mail.javamail.MimeMailMessage.setTo(MimeMailMessage.java:112) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.SimpleMailMessage.copyTo(SimpleMailMessage.java:204) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:314) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.MailSender.send(MailSender.java:42) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at com.springrest.springrest.service.EmailSenderService.sendEmail(EmailSenderService.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.0.jar:6.2.0]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:114) ~[spring-aop-6.2.0.jar:6.2.0]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: jakarta.mail.internet.AddressException: Illegal address
+	at org.springframework.mail.javamail.MimeMessageHelper.parseAddress(MimeMessageHelper.java:738) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.MimeMessageHelper.setTo(MimeMessageHelper.java:622) ~[spring-context-support-6.2.0.jar:6.2.0]
+	at org.springframework.mail.javamail.MimeMailMessage.setTo(MimeMailMessage.java:109) ~[spring-context-support-6.2.0.jar:6.2.0]
+	... 16 common frames omitted
+
+2024-12-23T15:57:51.289+05:45  INFO 9987 --- [springrest] [http-nio-8080-exec-1] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-1
+2024-12-23T15:57:51.762+05:45  WARN 9987 --- [springrest] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'abinashmahato796': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')]
+2024-12-23T15:58:21.129+05:45  INFO 9987 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T15:58:21.139+05:45  INFO 9987 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T15:58:21.152+05:45  INFO 9987 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:58:21.160+05:45  INFO 9987 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T15:58:21.183+05:45  INFO 9987 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T15:58:24.207+05:45  INFO 10142 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 10142 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T15:58:24.212+05:45  INFO 10142 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T15:58:25.272+05:45  INFO 10142 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T15:58:25.336+05:45  INFO 10142 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-12-23T15:58:25.911+05:45  INFO 10142 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T15:58:25.924+05:45  INFO 10142 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T15:58:25.925+05:45  INFO 10142 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T15:58:25.978+05:45  INFO 10142 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T15:58:25.979+05:45  INFO 10142 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1698 ms
+2024-12-23T15:58:26.158+05:45  INFO 10142 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T15:58:26.222+05:45  INFO 10142 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T15:58:26.254+05:45  INFO 10142 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T15:58:26.547+05:45  INFO 10142 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T15:58:26.579+05:45  INFO 10142 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T15:58:26.920+05:45  INFO 10142 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@510e4d79
+2024-12-23T15:58:26.923+05:45  INFO 10142 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T15:58:26.989+05:45  WARN 10142 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T15:58:27.013+05:45  INFO 10142 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T15:58:27.967+05:45  INFO 10142 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T15:58:28.030+05:45  INFO 10142 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T15:58:28.373+05:45  INFO 10142 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T15:58:28.973+05:45  WARN 10142 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T15:58:29.596+05:45  INFO 10142 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T15:58:29.611+05:45  INFO 10142 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 6.023 seconds (process running for 6.872)
+2024-12-23T15:58:40.903+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T15:58:40.904+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T15:58:40.906+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-23T15:58:41.064+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-2] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-2
+2024-12-23T15:58:48.937+05:45  INFO 10142 --- [springrest] [AsyncThread-1] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-1
+2024-12-23T15:58:49.549+05:45  INFO 10142 --- [springrest] [AsyncThread-3] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-3
+2024-12-23T15:58:50.107+05:45  INFO 10142 --- [springrest] [AsyncThread-2] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-2
+2024-12-23T15:59:11.069+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-2] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-2
+2024-12-23T16:00:15.336+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-5] c.s.s.controller.StudentController       : getStudents called
+2024-12-23T16:00:54.511+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-6] c.s.s.controller.StudentController       : addStudent called
+2024-12-23T16:01:02.165+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-7] c.s.s.controller.StudentController       : getStudents called
+2024-12-23T16:06:39.140+05:45  WARN 10142 --- [springrest] [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.cache.retrieveMode], use [jakarta.persistence.cache.retrieveMode] instead
+2024-12-23T16:06:39.140+05:45  WARN 10142 --- [springrest] [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.cache.storeMode], use [jakarta.persistence.cache.storeMode] instead
+2024-12-23T16:07:07.192+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 186 ms
+2024-12-23T16:12:16.548+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-6] c.s.s.controller.StudentController       : updateStudent called
+2024-12-23T16:12:42.394+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-7] c.s.s.controller.StudentController       : updateStudent called
+2024-12-23T17:05:06.318+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-10] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-10
+2024-12-23T17:05:10.978+05:45  INFO 10142 --- [springrest] [AsyncThread-1] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-1
+2024-12-23T17:05:11.170+05:45  INFO 10142 --- [springrest] [AsyncThread-4] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-4
+2024-12-23T17:05:12.534+05:45  INFO 10142 --- [springrest] [AsyncThread-3] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-3
+2024-12-23T17:05:13.198+05:45  INFO 10142 --- [springrest] [AsyncThread-5] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-5
+2024-12-23T17:05:36.321+05:45  INFO 10142 --- [springrest] [http-nio-8080-exec-10] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-10
+2024-12-23T21:22:31.705+05:45  INFO 10142 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T21:22:31.720+05:45  INFO 10142 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T21:22:31.744+05:45  INFO 10142 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T21:22:31.759+05:45  INFO 10142 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T21:22:31.771+05:45  INFO 10142 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-23T21:51:19.553+05:45  INFO 13417 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Starting SpringrestApplication using Java 17.0.13 with PID 13417 (/home/abi-mahato/Desktop/spring/c/springrest/target/classes started by abi-mahato in /home/abi-mahato/Desktop/spring/c/springrest)
+2024-12-23T21:51:19.558+05:45  INFO 13417 --- [springrest] [main] c.s.springrest.SpringrestApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-12-23T21:51:21.300+05:45  INFO 13417 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-23T21:51:21.375+05:45  INFO 13417 --- [springrest] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2024-12-23T21:51:22.140+05:45  INFO 13417 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-23T21:51:22.161+05:45  INFO 13417 --- [springrest] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-23T21:51:22.162+05:45  INFO 13417 --- [springrest] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-23T21:51:22.230+05:45  INFO 13417 --- [springrest] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-23T21:51:22.231+05:45  INFO 13417 --- [springrest] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2528 ms
+2024-12-23T21:51:22.478+05:45  INFO 13417 --- [springrest] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-23T21:51:22.566+05:45  INFO 13417 --- [springrest] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-23T21:51:22.631+05:45  INFO 13417 --- [springrest] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-23T21:51:23.398+05:45  INFO 13417 --- [springrest] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-23T21:51:23.493+05:45  INFO 13417 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-23T21:51:24.025+05:45  INFO 13417 --- [springrest] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@714c74eb
+2024-12-23T21:51:24.027+05:45  INFO 13417 --- [springrest] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-23T21:51:24.121+05:45  WARN 13417 --- [springrest] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-23T21:51:24.161+05:45  INFO 13417 --- [springrest] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-23T21:51:25.446+05:45  INFO 13417 --- [springrest] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-23T21:51:25.579+05:45  INFO 13417 --- [springrest] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T21:51:26.033+05:45  INFO 13417 --- [springrest] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-23T21:51:26.820+05:45  WARN 13417 --- [springrest] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-23T21:51:27.614+05:45  INFO 13417 --- [springrest] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-23T21:51:27.632+05:45  INFO 13417 --- [springrest] [main] c.s.springrest.SpringrestApplication     : Started SpringrestApplication in 8.832 seconds (process running for 9.956)
+2024-12-23T21:51:33.335+05:45  INFO 13417 --- [springrest] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-23T21:51:33.336+05:45  INFO 13417 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-23T21:51:33.342+05:45  INFO 13417 --- [springrest] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-12-23T21:51:33.426+05:45  INFO 13417 --- [springrest] [http-nio-8080-exec-2] c.s.s.controller.StudentController       : getStudent called
+2024-12-23T21:51:47.133+05:45  INFO 13417 --- [springrest] [http-nio-8080-exec-3] c.s.s.controller.StudentController       : getStudent called
+2024-12-23T21:53:51.160+05:45  INFO 13417 --- [springrest] [http-nio-8080-exec-6] c.s.s.controller.EmailSenderController   : before email sent http-nio-8080-exec-6
+2024-12-23T21:53:56.425+05:45  INFO 13417 --- [springrest] [AsyncThread-2] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-2
+2024-12-23T21:53:56.856+05:45  INFO 13417 --- [springrest] [AsyncThread-1] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-1
+2024-12-23T21:53:57.857+05:45  INFO 13417 --- [springrest] [AsyncThread-4] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-4
+2024-12-23T21:53:58.295+05:45  INFO 13417 --- [springrest] [AsyncThread-3] c.s.s.service.EmailSenderService         : Email sent service classAsyncThread-3
+2024-12-23T21:54:11.165+05:45  INFO 13417 --- [springrest] [http-nio-8080-exec-6] c.s.s.controller.EmailSenderController   : message after email sent http-nio-8080-exec-6
+2024-12-23T22:06:06.251+05:45  INFO 13417 --- [springrest] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-23T22:06:06.256+05:45  INFO 13417 --- [springrest] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-23T22:06:06.265+05:45  INFO 13417 --- [springrest] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-23T22:06:06.270+05:45  INFO 13417 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-23T22:06:06.284+05:45  INFO 13417 --- [springrest] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
