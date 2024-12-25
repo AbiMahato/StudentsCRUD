@@ -1,19 +1,26 @@
 package com.springrest.springrest.dto;
 
-import lombok.Data;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
 
 //@Data
-public class ExampleDto {
+public class StudentDto {
+    @NotEmpty
     private String name;
+
+    @NotEmpty
+    @Size(max = 6 , min = 2 , message = "roll must be between 2-6 characters")
     private String roll;
+
+    @NotEmpty
     private String course;
 
-    public ExampleDto(String name, String roll, String course) {
+    public StudentDto(String name, String roll, String course) {
         this.name = name;
         this.roll = roll;
         this.course = course;
     }
-    public ExampleDto() {}
+    public StudentDto() {}
 
     public String getName() {
         return name;
